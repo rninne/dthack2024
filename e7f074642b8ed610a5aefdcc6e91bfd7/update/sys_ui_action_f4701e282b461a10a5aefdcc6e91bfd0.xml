@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name/>
+        <active>true</active>
+        <client>false</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition>new sn_nowassist_admin.NowAssistSkillConfig().isSkillConfigurationActive('b66d38242bced610a5aefdcc6e91bf3a')</condition>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>true</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <format_for_configurable_workspace>false</format_for_configurable_workspace>
+        <hint/>
+        <isolate_script>false</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>Save</name>
+        <onclick/>
+        <order>100</order>
+        <script><![CDATA[var inputsPayload = {};
+// complex_validation is a input of type: glide_record
+inputsPayload['complex_validation'] = {
+  tableName: 'u_complex_validation',
+  sysId: '316c0ee02b461a10a5aefdcc6e91bf06',
+  queryString: ''
+};
+// fieldvalue is a input of type: string
+inputsPayload['fieldvalue'] = current.getValue('acceptance_criteria');
+
+var capabilityId = '666d7ce02bced610a5aefdcc6e91bfeb'; 
+var request = {
+	executionRequests: [{
+		payload: inputsPayload,
+		capabilityId: capabilityId,
+		meta: {
+			skillConfigId: 'b66d38242bced610a5aefdcc6e91bf3a'
+		}
+	}], 
+	mode: 'sync' 
+};
+
+try {
+	var response = sn_one_extend.OneExtendUtil.execute(request) || {}; 
+	var skillResponse = ((response["capabilities"] || {})[capabilityId] || {})["response"];
+	var modelOutput = JSON.parse(skillResponse).model_output;
+
+	var outputObj = JSON.parse(modelOutput);
+
+	if(!outputObj.isValid){
+		gs.addErrorMessage(outputObj.reason);
+		gs.addInfoMessage(outputObj.suggestion);
+	} else {
+		current.update();
+	}
+} catch(e) {
+	gs.error(e);
+	gs.addErrorMessage('Something went wrong while executing skill.');
+}
+action.setRedirectURL(current);]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-20 10:32:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f4701e282b461a10a5aefdcc6e91bfd0</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>Save</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="dthack2024" source="e7f074642b8ed610a5aefdcc6e91bfd7">e7f074642b8ed610a5aefdcc6e91bfd7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="dthack2024">e7f074642b8ed610a5aefdcc6e91bfd7</sys_scope>
+        <sys_update_name>sys_ui_action_f4701e282b461a10a5aefdcc6e91bfd0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-20 11:15:14</sys_updated_on>
+        <table>rm_story</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>f4701e282b461a10a5aefdcc6e91bfd0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-20 10:36:59</sys_created_on>
+        <sys_id>f67116a82b461a10a5aefdcc6e91bfcd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-20 10:36:59</sys_updated_on>
+        <table>sys_ui_action</table>
+        <use_es_latest>false</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

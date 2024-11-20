@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_form_action">
+    <sys_ux_form_action action="INSERT_OR_UPDATE">
+        <action_type>ui_action</action_type>
+        <active>true</active>
+        <declarative_action/>
+        <description/>
+        <name>Complex validation</name>
+        <specificity>40</specificity>
+        <sys_class_name>sys_ux_form_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-20 10:32:29</sys_created_on>
+        <sys_id>74701e282b461a10a5aefdcc6e91bfd4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Complex validation</sys_name>
+        <sys_package display_value="dthack2024" source="e7f074642b8ed610a5aefdcc6e91bfd7">e7f074642b8ed610a5aefdcc6e91bfd7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="dthack2024">e7f074642b8ed610a5aefdcc6e91bfd7</sys_scope>
+        <sys_update_name>sys_ux_form_action_74701e282b461a10a5aefdcc6e91bfd4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-20 10:32:29</sys_updated_on>
+        <table>rm_story</table>
+        <ui_action display_value="Save">f4701e282b461a10a5aefdcc6e91bfd0</ui_action>
+    </sys_ux_form_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=74701e282b461a10a5aefdcc6e91bfd4"/>
+</record_update>
