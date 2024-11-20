@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_one_extend_resource_attribute_mapping">
+    <sys_one_extend_resource_attribute_mapping action="DELETE">
+        <attribute_value_script><![CDATA[(function execute(currentInputs, context) {
+    /* @param {Object} currentInputs - Inputs provided for the current step.*/
+    /* @param {Object} context - Execution context, which may include:*/
+    /*						   - Previous tool outputs/inputs (e.g., context['ToolName.attributeName'] or context.getValue('ToolName.attributeName')).*/
+    /*						   - Additional context information (e.g., context.getAllValues()).*/
+    /* @returns {Object} - The computed value for the attribute.*/
+    return '';
+})(currentInputs, context);]]></attribute_value_script>
+        <attribute_value_template/>
+        <attribute_value_type>template</attribute_value_type>
+        <from_resource_mapping/>
+        <resource_attribute_name display_value="output">33d1c5682bced610a5aefdcc6e91bf48</resource_attribute_name>
+        <resource_mapping display_value="ComplexValidationTools">bbd1c5682bced610a5aefdcc6e91bf4a</resource_mapping>
+        <sys_class_name>sys_one_extend_resource_attribute_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-20 04:49:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f3d1c5682bced610a5aefdcc6e91bf60</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="dthack2024" source="e7f074642b8ed610a5aefdcc6e91bfd7">e7f074642b8ed610a5aefdcc6e91bfd7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="dthack2024">e7f074642b8ed610a5aefdcc6e91bfd7</sys_scope>
+        <sys_update_name>sys_one_extend_resource_attribute_mapping_f3d1c5682bced610a5aefdcc6e91bf60</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-20 04:49:10</sys_updated_on>
+    </sys_one_extend_resource_attribute_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="dthack2024">e7f074642b8ed610a5aefdcc6e91bfd7</application>
+        <file_path/>
+        <instance_id>cdba8ae7eb9fc690cbbffceacad0cdb9</instance_id>
+        <instance_name>na4cr</instance_name>
+        <name>sys_one_extend_resource_attribute_mapping_f3d1c5682bced610a5aefdcc6e91bf60</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_one_extend_resource_attribute_mapping"&gt;&lt;sys_one_extend_resource_attribute_mapping action="INSERT_OR_UPDATE"&gt;&lt;attribute_value_script&gt;&lt;![CDATA[(function execute(currentInputs, context) {
+    /* @param {Object} currentInputs - Inputs provided for the current step.*/
+    /* @param {Object} context - Execution context, which may include:*/
+    /*						   - Previous tool outputs/inputs (e.g., context['ToolName.attributeName'] or context.getValue('ToolName.attributeName')).*/
+    /*						   - Additional context information (e.g., context.getAllValues()).*/
+    /* @returns {Object} - The computed value for the attribute.*/
+    return '';
+})(currentInputs, context);]]&gt;&lt;/attribute_value_script&gt;&lt;attribute_value_template/&gt;&lt;attribute_value_type&gt;template&lt;/attribute_value_type&gt;&lt;from_resource_mapping/&gt;&lt;resource_attribute_name display_value="output"&gt;33d1c5682bced610a5aefdcc6e91bf48&lt;/resource_attribute_name&gt;&lt;resource_mapping display_value="ComplexValidationTools"&gt;bbd1c5682bced610a5aefdcc6e91bf4a&lt;/resource_mapping&gt;&lt;sys_class_name&gt;sys_one_extend_resource_attribute_mapping&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-11-20 04:49:10&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;f3d1c5682bced610a5aefdcc6e91bf60&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="dthack2024" source="e7f074642b8ed610a5aefdcc6e91bfd7"&gt;e7f074642b8ed610a5aefdcc6e91bfd7&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="dthack2024"&gt;e7f074642b8ed610a5aefdcc6e91bfd7&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_one_extend_resource_attribute_mapping_f3d1c5682bced610a5aefdcc6e91bf60&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-11-20 04:49:10&lt;/sys_updated_on&gt;&lt;/sys_one_extend_resource_attribute_mapping&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>2065115337</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>c5217c642b8ed610a5aefdcc6e91bf2e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-20 04:49:10</sys_created_on>
+        <sys_id>f7d1c5682bced610a5aefdcc6e91bf62</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19347e723850000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-20 04:49:10</sys_updated_on>
+        <type>OneExtend Resource Attribute Mapping</type>
+        <update_guid>fbd1c56838ced610e4a7d62fd8ebe661</update_guid>
+        <update_guid_history>fbd1c56838ced610e4a7d62fd8ebe661:2065115337</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-20 04:52:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_one_extend_resource_attribute_mapping">sys_one_extend_resource_attribute_mapping</sys_db_object>
+        <sys_id>4a8baf7a2a644460a91e4aa42dabf004</sys_id>
+        <sys_metadata>f3d1c5682bced610a5aefdcc6e91bf60</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="dthack2024" source="e7f074642b8ed610a5aefdcc6e91bfd7">e7f074642b8ed610a5aefdcc6e91bfd7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="dthack2024">e7f074642b8ed610a5aefdcc6e91bfd7</sys_scope>
+        <sys_scope_delete display_value="">28d80528a3d241b3a21e6817a5583511</sys_scope_delete>
+        <sys_update_name>sys_one_extend_resource_attribute_mapping_f3d1c5682bced610a5aefdcc6e91bf60</sys_update_name>
+        <sys_update_version display_value="sys_one_extend_resource_attribute_mapping_f3d1c5682bced610a5aefdcc6e91bf60">f7d1c5682bced610a5aefdcc6e91bf62</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-20 04:52:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

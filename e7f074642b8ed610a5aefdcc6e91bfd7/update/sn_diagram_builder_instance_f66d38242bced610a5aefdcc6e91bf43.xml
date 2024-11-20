@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_diagram_builder_instance">
+    <sn_diagram_builder_instance action="INSERT_OR_UPDATE">
+        <builder_configuration display_value="Now Assist Skill Kit Diagram Configuration">24fef3e67f8c1210ce7cc46adc8665a9</builder_configuration>
+        <diagram_json>{"start":"start","variables":[],"node_arguments":[],"edge_arguments":[],"nodes":[{"name":"Complex validation","node_id":"393a329f7fc012103f41c20e1f866555","key":"fe6d38242bced610a5aefdcc6e91bf46","resourceMappingId":"fe6d38242bced610a5aefdcc6e91bf46","resourceMapping":{"resourceName":"Complex validation","scope":null,"condition":null,"applicabilityFailedPolicy":"","applicabilityType":"","mappingId":"fe6d38242bced610a5aefdcc6e91bf46","errorHandlerScript":null,"conditionScript":"(function(currentInputs, context) {\n    /* @param {Object} currentInputs - Inputs provided for the current step.*/\n    /* @param {Object} context - Execution context, which may include:*/\n    /*\t\t\t\t\t\t   - Previous tool outputs/inputs (e.g., context['ToolName.attributeName'] or context.getValue('ToolName.attributeName')).*/\n    /*\t\t\t\t\t\t   - Additional context information (e.g., context.getAllValues()).*/\n    /* @returns {Boolean} - Return 'true' if the condition is met; otherwise 'false'.*/\n    return true;\n})(currentInputs, context);","metadata":{"diagramInstanceId":"f66d38242bced610a5aefdcc6e91bf43"},"active":true,"parentCapability":"666d7ce02bced610a5aefdcc6e91bfeb","applicabilityTable":"","errorPolicy":null,"dependsOnList":["18c2c5a82bced610a5aefdcc6e91bf0c"],"resourceCapability":"666d7ce02bced610a5aefdcc6e91bfeb","resourceType":"SKILL"}},{"name":"GetRules","node_id":"3a1afe5f7fc012103f41c20e1f866511","key":"18c2c5a82bced610a5aefdcc6e91bf0c","resourceMappingId":"18c2c5a82bced610a5aefdcc6e91bf0c","resourceMapping":{"resourceName":"GetRules","scope":null,"condition":null,"applicabilityFailedPolicy":"","applicabilityType":"","mappingId":"18c2c5a82bced610a5aefdcc6e91bf0c","errorHandlerScript":null,"conditionScript":"(function(currentInputs, context) {\n    /* @param {Object} currentInputs - Inputs provided for the current step.*/\n    /* @param {Object} context - Execution context, which may include:*/\n    /*\t\t\t\t\t\t   - Previous tool outputs/inputs (e.g., context['ToolName.attributeName'] or context.getValue('ToolName.attributeName')).*/\n    /*\t\t\t\t\t\t   - Additional context information (e.g., context.getAllValues()).*/\n    /* @returns {Boolean} - Return 'true' if the condition is met; otherwise 'false'.*/\n    return true;\n})(currentInputs, context);","metadata":{},"active":true,"parentCapability":"666d7ce02bced610a5aefdcc6e91bfeb","applicabilityTable":"","errorPolicy":null,"dependsOnList":[],"resourceCapability":"e7d10d282bced610a5aefdcc6e91bfc9","resourceType":"DATASOURCE"}},{"key":"start","name":"Start","node_id":"6ba9765f7fc012103f41c20e1f866518"},{"key":"end","name":"End","node_id":"901af65f7fc012103f41c20e1f866591"}],"edges":[{"edge_id":"242cb6137f0412103f41c20e1f866546","from":"18c2c5a82bced610a5aefdcc6e91bf0c","to":"fe6d38242bced610a5aefdcc6e91bf46"},{"edge_id":"242cb6137f0412103f41c20e1f866546","from":"start","to":"18c2c5a82bced610a5aefdcc6e91bf0c"},{"edge_id":"242cb6137f0412103f41c20e1f866546","from":"fe6d38242bced610a5aefdcc6e91bf46","to":"end","add_button_visible":false}]}</diagram_json>
+        <name>Complex validation</name>
+        <read_only>false</read_only>
+        <state>draft</state>
+        <sys_class_name>sn_diagram_builder_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-20 04:29:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>f66d38242bced610a5aefdcc6e91bf43</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Complex validation</sys_name>
+        <sys_package display_value="dthack2024" source="e7f074642b8ed610a5aefdcc6e91bfd7">e7f074642b8ed610a5aefdcc6e91bfd7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="dthack2024">e7f074642b8ed610a5aefdcc6e91bfd7</sys_scope>
+        <sys_update_name>sn_diagram_builder_instance_f66d38242bced610a5aefdcc6e91bf43</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-20 04:53:02</sys_updated_on>
+    </sn_diagram_builder_instance>
+</record_update>

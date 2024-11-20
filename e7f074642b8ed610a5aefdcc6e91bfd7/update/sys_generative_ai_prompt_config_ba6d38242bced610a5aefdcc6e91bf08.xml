@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_generative_ai_prompt_config">
+    <sys_generative_ai_prompt_config action="INSERT_OR_UPDATE">
+        <ai_config display_value="OneExtend Capability Definition: Complex validation">be6d38242bced610a5aefdcc6e91bf05</ai_config>
+        <definition display_value="Complex validation">a66df4242bced610a5aefdcc6e91bfec</definition>
+        <filter_properties>{}</filter_properties>
+        <filter_type>default</filter_type>
+        <is_default>true</is_default>
+        <order>0</order>
+        <sys_class_name>sys_generative_ai_prompt_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-20 04:29:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ba6d38242bced610a5aefdcc6e91bf08</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>be6d38242bced610a5aefdcc6e91bf05</sys_name>
+        <sys_package display_value="dthack2024" source="e7f074642b8ed610a5aefdcc6e91bfd7">e7f074642b8ed610a5aefdcc6e91bfd7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="dthack2024">e7f074642b8ed610a5aefdcc6e91bfd7</sys_scope>
+        <sys_update_name>sys_generative_ai_prompt_config_ba6d38242bced610a5aefdcc6e91bf08</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-20 05:40:07</sys_updated_on>
+    </sys_generative_ai_prompt_config>
+</record_update>

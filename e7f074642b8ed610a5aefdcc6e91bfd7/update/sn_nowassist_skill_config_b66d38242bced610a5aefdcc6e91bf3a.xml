@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_nowassist_skill_config">
+    <sn_nowassist_skill_config action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <description><![CDATA[Use this skill to validate more than just a mandatory check. Create complex validation rules for generative AI to assess field values against.]]></description>
+        <in_product_active>false</in_product_active>
+        <in_product_roles/>
+        <is_template>false</is_template>
+        <name>Complex validation</name>
+        <nap_skill_applicability/>
+        <order>100</order>
+        <parent/>
+        <skill_family display_value="Other">a5efaf1c93764210aa5730f16489186d</skill_family>
+        <skill_id>666d7ce02bced610a5aefdcc6e91bfeb</skill_id>
+        <skill_table>sys_one_extend_capability</skill_table>
+        <state>0</state>
+        <success_message/>
+        <sys_class_name>sn_nowassist_skill_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-20 04:29:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>b66d38242bced610a5aefdcc6e91bf3a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Complex validation</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="dthack2024" source="e7f074642b8ed610a5aefdcc6e91bfd7">e7f074642b8ed610a5aefdcc6e91bfd7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="dthack2024">e7f074642b8ed610a5aefdcc6e91bfd7</sys_scope>
+        <sys_update_name>sn_nowassist_skill_config_b66d38242bced610a5aefdcc6e91bf3a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-20 04:29:43</sys_updated_on>
+    </sn_nowassist_skill_config>
+    <sys_translated_text action="delete_multiple" query="documentkey=b66d38242bced610a5aefdcc6e91bf3a"/>
+</record_update>
