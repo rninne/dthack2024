@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>backout_plan</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-20 06:43:34</sys_created_on>
+        <sys_id>770c99e42b421a10a5aefdcc6e91bfd1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>backout_plan</sys_name>
+        <sys_package display_value="dthack2024" source="e7f074642b8ed610a5aefdcc6e91bfd7">e7f074642b8ed610a5aefdcc6e91bfd7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="dthack2024">e7f074642b8ed610a5aefdcc6e91bfd7</sys_scope>
+        <sys_update_name>sys_ui_policy_action_770c99e42b421a10a5aefdcc6e91bfd1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-20 06:43:34</sys_updated_on>
+        <table>change_request</table>
+        <ui_policy display_value="Planning fields mandatory">f47bdda42b421a10a5aefdcc6e91bf25</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=770c99e42b421a10a5aefdcc6e91bfd1"/>
+</record_update>
