@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_field" label="Field" language="en" table="u_complex_validation">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_field</element>
+            <help/>
+            <hint/>
+            <label>Field</label>
+            <language>en</language>
+            <name>u_complex_validation</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-20 03:55:56</sys_created_on>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Field</sys_name>
+            <sys_package display_value="dthack2024" source="e7f074642b8ed610a5aefdcc6e91bfd7">e7f074642b8ed610a5aefdcc6e91bfd7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="dthack2024">e7f074642b8ed610a5aefdcc6e91bfd7</sys_scope>
+            <sys_update_name>sys_documentation_u_complex_validation_u_field_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-20 03:55:57</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

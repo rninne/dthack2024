@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="39f7b0ac2b8ed610a5aefdcc6e91bfec" label="Validation Rule" max_length="40" name="u_complex_validation_rule" type="collection">
+        <element attributes="encode_utf8=false" label="Complex Validation" max_length="32" name="u_complex_validation" reference="u_complex_validation" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Rule" max_length="100" name="u_rule" type="string"/>
+        <index name="index">
+            <element name="u_complex_validation"/>
+        </index>
+    </element>
+</database>

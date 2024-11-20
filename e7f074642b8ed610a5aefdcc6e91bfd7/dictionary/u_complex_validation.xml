@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4425b8a82b8ed610a5aefdcc6e91bf32" label="Complex validation" max_length="40" name="u_complex_validation" type="collection">
+        <element label="Inherit default rules" max_length="40" name="u_inherit_default_rules" type="boolean"/>
+        <element label="Table" max_length="80" name="u_table" type="table_name"/>
+        <element dependent="u_table" dependent_on_field="u_table" label="Field" max_length="40" name="u_field" type="field_name" use_dependent_field="true"/>
+        <element display="true" label="Name" max_length="40" name="u_name" type="string"/>
+    </element>
+</database>

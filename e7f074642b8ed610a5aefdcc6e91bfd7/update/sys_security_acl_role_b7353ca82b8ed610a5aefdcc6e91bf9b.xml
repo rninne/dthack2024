@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-20 03:54:00</sys_created_on>
+        <sys_id>b7353ca82b8ed610a5aefdcc6e91bf9b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_complex_validation.u_complex_validation_user</sys_name>
+        <sys_package display_value="dthack2024" source="e7f074642b8ed610a5aefdcc6e91bfd7">e7f074642b8ed610a5aefdcc6e91bfd7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="dthack2024">e7f074642b8ed610a5aefdcc6e91bfd7</sys_scope>
+        <sys_security_acl display_value="u_complex_validation">bf353ca82b8ed610a5aefdcc6e91bf7e</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_b7353ca82b8ed610a5aefdcc6e91bf9b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-20 03:54:00</sys_updated_on>
+        <sys_user_role display_value="u_complex_validation_user" name="u_complex_validation_user">1f35b8a82b8ed610a5aefdcc6e91bf94</sys_user_role>
+    </sys_security_acl_role>
+</record_update>
