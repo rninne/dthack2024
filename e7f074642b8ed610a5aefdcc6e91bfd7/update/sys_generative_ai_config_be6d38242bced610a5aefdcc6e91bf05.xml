@@ -11,11 +11,17 @@
         <name>Field validation</name>
         <parent/>
         <prompt>You are a part of a field validation script.
+
+The field is on a {{complex_validation.u_table}} form
+
+Frame all rule evaluations against the following context:  {{complex_validation.u_additional_context}} 
+
 You are responsible for validating the value of a mandatory field against the following rules:
  {{GetRules.output}}
 
-Test the following text between *** characters against the previously mentioned rules
-*** {{fieldvalue}} ***
+
+Evaluate the following text between &lt;field&gt; tags against the previously mentioned rules
+&lt;field&gt; {{fieldvalue}} &lt;/field&gt;
 
 You can only specify if a field is either valid or invalid &lt;IS_VALID&gt;
 Record your reason, using the criteria &lt;REASON&gt;
@@ -23,7 +29,7 @@ Record your reason, using the criteria &lt;REASON&gt;
 You are a part of an integration, so your response must be in well formatted JSON with the following structure:
 {"is_valid":&lt;IS_VALID&gt;, "reason": &lt;REASON&gt;}
 
-Reply only with a JSON string no markdown.</prompt>
+Reply only with a JSON string no markdown</prompt>
         <prompt_template_role>user</prompt_template_role>
         <request_tokens>15134</request_tokens>
         <show_in_prompt_library>false</show_in_prompt_library>
@@ -34,7 +40,7 @@ Reply only with a JSON string no markdown.</prompt>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>be6d38242bced610a5aefdcc6e91bf05</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name>a66df4242bced610a5aefdcc6e91bfec</sys_name>
         <sys_overrides/>
         <sys_package display_value="dthack2024" source="e7f074642b8ed610a5aefdcc6e91bfd7">e7f074642b8ed610a5aefdcc6e91bfd7</sys_package>
@@ -42,7 +48,7 @@ Reply only with a JSON string no markdown.</prompt>
         <sys_scope display_value="dthack2024">e7f074642b8ed610a5aefdcc6e91bfd7</sys_scope>
         <sys_update_name>sys_generative_ai_config_be6d38242bced610a5aefdcc6e91bf05</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-11-20 05:45:26</sys_updated_on>
+        <sys_updated_on>2024-11-20 06:03:05</sys_updated_on>
         <temperature>0.2</temperature>
         <version>1</version>
     </sys_generative_ai_config>
